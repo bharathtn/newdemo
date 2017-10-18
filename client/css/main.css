@@ -394,6 +394,31 @@ a:not([href]):not([tabindex]):hover {
   position: relative;
   background: #f2f2f2;
 }
+
+#focus{
+  position: relative;
+  background: #f2f2f2;
+}
+#projects{
+  position: relative;
+  background: #f2f2f2;
+}
+#securityequipment{
+  position: relative;
+  background: #f2f2f2;
+}
+#EliteMilitary{
+  position: relative;
+  background: #f2f2f2;
+}
+#HardwareProducts{
+  position: relative;
+  background: #f2f2f2;
+}
+#ProductCategories{
+  position: relative;
+  background: #f2f2f2;
+}
 /* ==========================================================================
    Features Section Style
    ========================================================================== */
