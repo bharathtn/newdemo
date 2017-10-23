@@ -17,13 +17,15 @@ function submitForm(){
     var email = $("#email").val();
     var msg_subject = $("#msg_subject").val();
     var message = $("#message").val();
-
+    console.log("message",message);
 
     $.ajax({
         type: "POST",
         url: "php/form-process.php",
         data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message,
         success : function(text){
+            console.log("text",text);
+                
             if (text == "success"){
                 formSuccess();
             } else {
