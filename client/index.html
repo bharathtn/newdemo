@@ -110,31 +110,53 @@
 
 
     <header id="video-area" data-stellar-background-ratio="0.5">
-       
-      <div class="outer-container">
+
+        <!--     <div class="outer-container">
     <div class="inner-container">
         <div class="video-overlay">Bug Buck Bunny - Trailer</div>
         <video id="player" 
         src="http://video.webmfiles.org/big-buck-bunny_trailer.webm" autoplay loop></video>
     </div>
-</div>
+</div>-->
 
-       <!-- <div id="block">
-            <video id="block" style="width: 100%;height: 100%;" playsinline autoplay loop>
+
+
+        <header id="video-area" data-stellar-background-ratio="0.5">
+            <div id="block" data-vide-bg="video/levisys" data-vide-options="loop: true" onclick="this.play();"></div>
+            <div class="fixed-top">
+                <div class="container">
+                    <div class="logo-menu">
+                       <img src="img/lycka.png"  height="50px" width=""/>
+                        <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay overlay-2"></div>
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-10">
+                        <div class="contents text-center">
+                            <h1 class="wow fadeInDown myown" data-wow-duration="1000ms" data-wow-delay="0.3s">Invest in Innovation<br> Connect and Collaborate<br> Conquer New Frontiers<br> Build the Future
+                            </h1>
+                            <!--<div><br/>
+              <br/>
+              <br/><br/>
+              <br/>
+              <br/><br/>
+              <br/>
+              <br/></div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- <div id="block">
+
+            <video id="block" class="center" style="width: 100%;height: 100%;" playsinline autoplay loop>
                   <source src="video/levisys.mp4" type="video/mp4" onclick="this.play();">
                   <source src="movie.ogg" type="video/ogg">
                   Your browser does not support the video tag.
-                </video>
-        </div>
-        <div class="fixed-top">
-            <div class="container">
-                <div class="logo-menu">
-                    <img class="logo" src="img/lycka.png" height="50px" width="">
-                    <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>
-                </div>
-            </div>
-        </div>
-        <div class="overlay overlay-2"></div>
+                    <div class="overlay overlay-2"></div>
         <div class="container">
             <div class="row justify-content-md-center">
                 <div class="col-md-10">
@@ -145,9 +167,21 @@
                     </div>
                 </div>
             </div>
-        </div>-->
+        </div>
+                </video>
+        </div>
+        <div class="fixed-top">
+            <div class="container">
+                <div class="logo-menu">
+                    <img class="logo" src="img/lycka.png" height="50px" width="">
+                    <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>
+                </div>
+            </div>
+        </div>
+-->
     </header>
     <!-- Header Section End -->
+
 
 
     <!-- Services Section Start -->
@@ -463,11 +497,11 @@
         <i class="lnr lnr-arrow-up"></i>
     </a>
 
-    <div id="loader">		   
-         <div class="spinner">		
-            <div class="double-bounce1"></div>		
-             <div class="double-bounce2"></div>		
-         </div>		
+    <div id="loader">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
     </div>
 
 
@@ -496,7 +530,7 @@
         // This example displays a marker at the center of Australia.
         // When the user clicks the marker, an info window opens.
 
-        var video = document.getElementById('video');
+        var video = document.getElementById('block');
         video.addEventListener('click', function() {
             video.play();
         }, false);
