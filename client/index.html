@@ -516,10 +516,7 @@
         // This example displays a marker at the center of Australia.
         // When the user clicks the marker, an info window opens.
 
-         var video = document.getElementById('block');
-            video.addEventListener('click', function() {
-                video.play();
-            }, false);
+        
         
         var ONLYONETIME_EXECUTE = null;
         window.addEventListener('load', function() { // on page load
@@ -542,6 +539,10 @@
 
         }, false)
 
+         var video = document.getElementById('block');
+            video.addEventListener('click', function() {
+                video.play();
+            }, false);
         function myMap() {
             var uluru = {
                 lat: 12.9741,
