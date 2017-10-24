@@ -524,31 +524,34 @@
         // This example displays a marker at the center of Australia.
         // When the user clicks the marker, an info window opens.
 
-        var video = document.getElementById('block');
+       /* var video = document.getElementById('block');
         video.addEventListener('click', function() {
             video.play();
         }, false);
+*/
+   
+    document.getElementById('block').play();
 
-        var ONLYONETIME_EXECUTE = null;
-        window.addEventListener('load', function() { // on page load
-
-            document.body.addEventListener('touchstart', function(e) {
-
-                if (ONLYONETIME_EXECUTE == null) {
-
-                    video.play();
-
-                    //if you want to prepare more than one video/audios use this trick :             
-                    video2.play();
-                    video2.pause();
-                    // now video2 is buffering and you can play it programmability later 
-
-                    ONLYONETIME_EXECUTE = 0;
-                }
-
-            }, false)
-
-        }, false)
+//        var ONLYONETIME_EXECUTE = null;
+//        window.addEventListener('load', function() { // on page load
+//
+//            document.body.addEventListener('touchstart', function(e) {
+//
+//                if (ONLYONETIME_EXECUTE == null) {
+//
+//                    video.play();
+//
+//                    //if you want to prepare more than one video/audios use this trick :             
+//                    video2.play();
+//                    video2.pause();
+//                    // now video2 is buffering and you can play it programmability later 
+//
+//                    ONLYONETIME_EXECUTE = 0;
+//                }
+//
+//            }, false)
+//
+//        }, false)
 
         function myMap() {
             var uluru = {
