@@ -26,6 +26,16 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
 
+    <script>
+        $(document).ready(function() {
+            var video = document.getElementById('video');
+            video.addEventListener('click', function() {
+                video.play();
+            }, false);
+        });
+
+    </script>
+
 
 </head>
 
@@ -480,10 +490,7 @@
         // This example displays a marker at the center of Australia.
         // When the user clicks the marker, an info window opens.
 
-        var video = document.getElementById('video');
-        video.addEventListener('click', function() {
-            video.play();
-        }, false);
+
 
         function myMap() {
             var uluru = {
