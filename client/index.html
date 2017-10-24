@@ -523,13 +523,11 @@
     <script>
         // This example displays a marker at the center of Australia.
         // When the user clicks the marker, an info window opens.
-
-        $(document).load(function() {
-            alert("hi")
-            console.log("hi");
+        document.addEventListener("DOMContentLoaded", function(event) {
+            console.log("DOM fully loaded and parsed");
         });
         var video = document.getElementById('video');
-        video.addEventListener(function() {
+        video.addEventListener('click', function() {
             video.play();
         }, false);
 
