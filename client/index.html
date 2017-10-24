@@ -524,8 +524,8 @@
         // This example displays a marker at the center of Australia.
         // When the user clicks the marker, an info window opens.
 
-        $().ready(function() {
-           alert("hi");
+        $(function() {
+            $("video").text("The DOM is now loaded and can be manipulated.");
         });
         var video = document.getElementById('video');
         video.addEventListener('click', function() {
