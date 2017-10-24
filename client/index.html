@@ -109,6 +109,8 @@
 
 
 
+   
+<!--
     <header id="video-area" data-stellar-background-ratio="0.5">
 
         <div id="block">
@@ -127,7 +129,7 @@
             </div>
         </div>
         <div class="overlay overlay-2"></div>
-        <!--<div class="container">
+        <div class="container">
             <div class="row justify-content-md-center">
                 <div class="col-md-10">
                     <div class="contents text-center">
@@ -137,8 +139,40 @@
                     </div>
                 </div>
             </div>
-        </div>-->
+        </div>
     </header>
+-->
+    
+     <header id="video-area" data-stellar-background-ratio="0.5">
+        <div id="block" data-vide-bg="video/levisys" data-vide-options="loop: true"></div>
+        <div class="fixed-top">
+            <div class="container">
+                <div class="logo-menu">
+                    <a href="index-2.html" class="logo"><img src="img/lycka.png" / height="50px" width=""></a>
+                    <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="overlay overlay-2"></div>
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-10">
+                    <div class="contents text-center">
+                        <h1 class="wow fadeInDown myown" data-wow-duration="1000ms" data-wow-delay="0.3s">Invest in Innovation<br> Connect and Collaborate<br> Conquer New Frontiers<br> Build the Future
+                        </h1>
+                        <!--<div><br/>
+              <br/>
+              <br/><br/>
+              <br/>
+              <br/><br/>
+              <br/>
+              <br/></div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Se
     <!-- Header Section End -->
 
 
@@ -482,7 +516,7 @@
         // This example displays a marker at the center of Australia.
         // When the user clicks the marker, an info window opens.
 
-         var video = document.getElementById('video');
+         var video = document.getElementById('block');
             video.addEventListener('click', function() {
                 video.play();
             }, false);
