@@ -4,12 +4,12 @@
 
 .menu-wrap a:hover,
 .menu-wrap a:focus {
-    color: #4676fa;
+    color: #D0AF51;
 }
 
 .menu-wrap .navbar-nav li .active,
 .menu-wrap .navbar-nav li .active:before {
-    color: #4676fa;
+    color: #D0AF51;
     -webkit-transform: scale(1);
     transform: scale(1);
 }
@@ -49,7 +49,7 @@
     position: absolute;
     z-index: 1000;
     width: 60px;
-    height: 42px;
+    height: 60px;
     border: none;
     font-size: 30px;
     color: #fff;
@@ -133,7 +133,7 @@
 }
 
 .icon-list a:before {
-    background: #4676fa;
+    background: #D0AF51;
     content: "";
     height: 1px;
     left: 0;
